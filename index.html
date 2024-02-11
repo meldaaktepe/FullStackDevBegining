@@ -1,4 +1,12 @@
-<h1> Heading 1 </h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <h1> Heading 1 </h1>
 <h2> Heading 2</h2>
 <h3> Heading 3</h3>
 <h4> Heading 4</h4>
@@ -36,7 +44,7 @@
 </dl>
 
 <blockquote>
-  <p> Tis is a block wuate</p>
+  <p> Tis is a block quate</p>
   <cite>Melda</cite>
 </blockquote>
 <p>This is a in line <q>quote</q></p>
@@ -90,19 +98,68 @@
     <dd>Gives the browser what language it is in. </dd>
     <dt>dir</dt>
     <dd>which direction is the textflows.dir="ltr" Flows from left to right, dir="rtl" Flows rigth to left</dd>
-    
-    <!-- This is a command -
-    
-    this an another command -->
-    
-    <!--- 
-    Entitiy    Character
-    &lt;           <
-    &gt;           >
-    &amp;          &
-    &copy;      copyrigth symbol
-    &trade         TM
-    &star;      Star symbol
-    &nbsp      non breaking spce, when put html wont break the spece it can also use to put more than one spcae
-    -->
 </dl>
+
+<!-- This is a command -
+
+this an another command -->
+
+<!--- 
+Entitiy    Character
+&lt;           <
+&gt;           >
+&amp;          &
+&copy;      copyrigth symbol
+&trade         TM
+&star;      Star symbol
+&nbsp      non breaking spce, when put html wont break the spece it can also use to put more than one spcae
+-->
+<a href="https://www.w3schools.com">w3scholls</a>
+<p>This is a sentence <a href="https://www.w3schools.com">with a link</a> in the mids of the text.</p>
+
+<p>A picture with a link : <a href="https://www.w3schools.com"><img src="images/kittens.jpg"></a></p>
+  
+<!--
+URL PATH: images/cat.jpg relative to root level
+relative from link written ../images/kittens.jpg relative to the file ../ means go up a folder relative to file and look from there
+-->
+
+<nav rule="navigation" aria-label="main-menu">
+  <ul>
+    <li><a href="/">Home</a></li>
+    <li><a href="/people">Peole</a></li>
+    <li><a href="/prices">Prices</a></li>
+    <li><a href="/contact">Contact</a></li>
+  </ul>
+</nav>
+
+<img src="images/kittens.jpg" alt="kittens" width="320" height="300">
+image Formats : GIF 
+ * Does well compressşng larfe areas ıf a sşngle color
+ * Can do transparency, with jagged edges
+ SVC :  logos icon etc. 
+  *Vector File 
+  it contains of a drawing
+  it can make scaleing easy
+jpg
+ * Good for comperesing photes
+ * size can be huge
+png
+good for transperancy
+good at compression
+file size can be very small
+<!--TODO responsive iamge-->
+<picture><img ></picture>
+
+<audio src="" loop autoplay></audio>
+
+can be used more than 1 source
+<video controls>
+  <source src="" type="video/webm">
+  <source src="" type="video/mp">
+</video>
+
+<!--TODO alt yazı ekleme ekle-->
+
+</body>
+</html>

@@ -1,0 +1,20 @@
+//NOTE critical, high low today doing
+ 
+☐ Atrinutelari bir araya getir
+Arastirilicakcak Atributelar: 
+☐ href @anchor_tag(a)
+☐ rule @nav_tag(nav)
+☐ aria-label @nav_tag(nav)
+☐ src @img_tag(img)
+☐ alt @img_tag(img)
+☐ width @img_tag(img)
+☐ height @img_tag(img)
+☐ sourcest @img_tag(img)
+☐ sizes @img_tag(img)
+☐ loop @audo_tag(audio)
+☐ autoplay @audo_tag(audio)
+☐ type @video_tag(video)
+☐ track @video_tag(video)
+☐ kind @video_tag(video)
+☐ label @video_tag(video)
+☐ srclang @video_tag(video)
