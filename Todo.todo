@@ -1,7 +1,7 @@
 //NOTE critical, high low today doing
- 
+
 ☐ Atrinutelari bir araya getir
-Arastirilicakcak Atributelar: 
+Arastirilicakcak Atributelar:
 ☐ href @anchor_tag(a)
 ☐ rule @nav_tag(nav)
 ☐ aria-label @nav_tag(nav)
@@ -9,7 +9,7 @@ Arastirilicakcak Atributelar:
 ☐ alt @img_tag(img)
 ☐ width @img_tag(img)
 ☐ height @img_tag(img)
-☐ sourcest @img_tag(img)
+☐ srcset @img_tag(img)
 ☐ sizes @img_tag(img)
 ☐ loop @audo_tag(audio)
 ☐ autoplay @audo_tag(audio)
@@ -18,3 +18,5 @@ Arastirilicakcak Atributelar:
 ☐ kind @video_tag(video)
 ☐ label @video_tag(video)
 ☐ srclang @video_tag(video)
+☐ style tag
+☐ rel @link_tag

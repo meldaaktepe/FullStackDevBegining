@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/styless.css">
+</head>
+<body>
+  <h1> success!! </h1>
+  <p id="signup"></p>
+
+  <script>
+    const resultsList = document.getElementById('signup')
+    new URLSearchParams(window.location.search).forEach((value,name) => {
+        resultsList.append(`${name}: ${value}`)
+        resultsList.append(document.createElement('br'))
+    })
+</script>
+
+
+</body>
+</html>

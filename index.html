@@ -7,159 +7,371 @@
 </head>
 <body>
   <h1> Heading 1 </h1>
-<h2> Heading 2</h2>
-<h3> Heading 3</h3>
-<h4> Heading 4</h4>
-<h5> Heading 5</h5>
-<h6> Heading 6</h6>
+  <h2> Heading 2</h2>
+  <h3> Heading 3</h3>
+  <h4> Heading 4</h4>
+  <h5> Heading 5</h5>
+  <h6> Heading 6</h6>
 
-<p>Pragraph</p>
+  <p>Pragraph</p>
 
-<b>Normal bold</b>
-<strong>Importand Bold</strong>
-<i>Normal italic</i>
-<em>Emphesis Italic</em>
+  <b>Normal bold</b>
+  <strong>Importand Bold</strong>
+  <i>Normal italic</i>
+  <em>Emphesis Italic</em>
 
+  <!--lists-->
 
-<ul>
-  <li> UnOrdered List Item 1</li>
-  <li> UnOrdered List Item 2</li>
-  <li> UnOrdered List Item 3</li>
-  <li> UnOrdered List Item 4</li>
-</ul>
+  <ul>
+    <li> UnOrdered List Item 1</li>
+    <li> UnOrdered List Item 2</li>
+     <li> UnOrdered List Item 3</li>
+     <li> UnOrdered List Item 4</li>
+  </ul>
 
-<ol>
-  <li> Ordered List Item 1</li>
-  <li> Ordered List Item 2</li>
-  <li> Ordered List Item 3</li>
-  <li> Ordered List Item 4</li>
-</ol>
+  <ol>
+    <li> Ordered List Item 1</li>
+    <li> Ordered List Item 2</li>
+    <li> Ordered List Item 3</li>
+    <li> Ordered List Item 4</li>
+  </ol>
 
-<dl>
-  <dt>Term 1 in Definition List</dt>
-  <dd> Definition in Definition list</dd>
-  <dd>Additional Definition in Term 1</dd>
-  <dt>Term 2 in Definition List</dt>
-  <dd> Definition for Term 2</dd>
-</dl>
+  <dl>
+    <dt>Term 1 in Definition List</dt>
+    <dd> Definition in Definition list</dd>
+    <dd>Additional Definition in Term 1</dd>
+    <dt>Term 2 in Definition List</dt>
+    <dd> Definition for Term 2</dd>
+  </dl>
 
-<blockquote>
-  <p> Tis is a block quate</p>
-  <cite>Melda</cite>
-</blockquote>
-<p>This is a in line <q>quote</q></p>
+  <blockquote>
+    <p> Tis is a block quate</p>
+    <cite>Melda</cite>
+  </blockquote>
+  <p>This is a in line <q>quote</q></p>
 
-<time>February 7 2024</time>
-<time datetime="2024-02-07">February 7 2024</time>
-<code>this is a code </code>
-<code>&lt;h4&gt;</code>
+  <time>February 7 2024</time>
+  <time datetime="2024-02-07">February 7 2024</time>
+  <code>this is a code </code>
+  <code>&lt;h4&gt;</code>
 
-<p>
-  Line 1 <br>
-  <pre>
-    Line 2
-      Line 3
-  </pre>
-</p>
+  <p>
+    Line 1 <br>
+    <pre>
+      Line 2
+        Line 3
+    </pre>
+  </p>
 
-<p>H<sub>2</sub>O</p>
-<p>Something that has a format <sup>2</sup></p>
+  <p>H<sub>2</sub>O</p>
+  <p>Something that has a format <sup>2</sup></p>
 
-<p><small>@ Copyrigth info</small></p>
+  <p><small>@ Copyrigth info</small></p>
 
-<h4>HTMl Atribute</h4>
-<dl>
-  <dt>Gloabal Atributes:</dt>
-  <dd>Atributes that can be applied to any HTML element.</dd>
-  <dt>class Atribute</dt>
-  <dd>Allows us to target <b>all elements with that class </b>in CSS or JavaScript </dd>
-  <pre>
-    <code>
-      &lt;p class="intro"&gt;
-        This is the introduction
-      &lt;/p&gt;
-    </code>
-  </pre>
-  <dt>id Atributes</dt>
-  <dd>Allows us to target <b>a unique element with that id</b> in our CSS of JavaScript</dd>
-  <pre>
+  <h4>HTMl Atribute</h4>
+  <dl>
+    <dt>Gloabal Atributes:</dt>
+    <dd>Atributes that can be applied to any HTML element.</dd>
+    <dt>class Atribute</dt>
+    <dd>Allows us to target <b>all elements with that class </b>in CSS or JavaScript </dd>
+    <pre>
       <code>
-        &lt;p class="intro" id="article-intro"&gt;
+        &lt;p class="intro"&gt;
           This is the introduction
         &lt;/p&gt;
       </code>
     </pre>
-    <dd>id can be use to targeting CSS, but it is much more specific and that can be a problem. So most of the time developers tend to stick to classes. id's can be helpfull for addressing particular elements with JavaScript or with a targeted link. The fact that there will only ever be one element with any particular id name, becomes useful when interacting with JavaScript or links.</dd>
-    <dt>contenteditable</dt>
-    <dd>Enables visitor of a page to edits that change.
-    <p contenteditable="true">changable Content. </p>
-    </dd>
-    <dt>lang</dt>
-    <dd>Gives the browser what language it is in. </dd>
-    <dt>dir</dt>
-    <dd>which direction is the textflows.dir="ltr" Flows from left to right, dir="rtl" Flows rigth to left</dd>
-</dl>
+    <dt>id Atributes</dt>
+    <dd>Allows us to target <b>a unique element with that id</b> in our CSS of JavaScript</dd>
+    <pre>
+        <code>
+          &lt;p class="intro" id="article-intro"&gt;
+            This is the introduction
+          &lt;/p&gt;
+        </code>
+      </pre>
+      <dd>id can be use to targeting CSS, but it is much more specific and that can be a problem. So most of the time developers tend to stick to classes. id's can be helpfull for addressing particular elements with JavaScript or with a targeted link. The fact that there will only ever be one element with any particular id name, becomes useful when interacting with JavaScript or links.</dd>
+      <dt>contenteditable</dt>
+      <dd>Enables visitor of a page to edits that change.
+      <p contenteditable="true">changable Content. </p>
+      </dd>
+      <dt>lang</dt>
+      <dd>Gives the browser what language it is in. </dd>
+      <dt>dir</dt>
+      <dd>which direction is the textflows.dir="ltr" Flows from left to right, dir="rtl" Flows rigth to left</dd>
+  </dl>
 
-<!-- This is a command -
+  <!-- This is a command -
 
-this an another command -->
+  this an another command -->
 
-<!--- 
-Entitiy    Character
-&lt;           <
-&gt;           >
-&amp;          &
-&copy;      copyrigth symbol
-&trade         TM
-&star;      Star symbol
-&nbsp      non breaking spce, when put html wont break the spece it can also use to put more than one spcae
--->
-<a href="https://www.w3schools.com">w3scholls</a>
-<p>This is a sentence <a href="https://www.w3schools.com">with a link</a> in the mids of the text.</p>
+  <!---
+  Entitiy    Character
+  &lt;           <
+  &gt;           >
+  &amp;          &
+  &copy;      copyrigth symbol
+  &trade         TM
+  &star;      Star symbol
+  &nbsp      non breaking spce, when put html wont break the spece it can also use to put more than one spcae
+  -->
+  <!--links-->
+  <a href="https://www.w3schools.com">w3scholls</a>
+  <p>This is a sentence <a href="https://www.w3schools.com">with a link</a> in the mids of the text.</p>
 
-<p>A picture with a link : <a href="https://www.w3schools.com"><img src="images/kittens.jpg"></a></p>
-  
-<!--
-URL PATH: images/cat.jpg relative to root level
-relative from link written ../images/kittens.jpg relative to the file ../ means go up a folder relative to file and look from there
--->
+  <p>A picture with a link : <a href="https://www.w3schools.com"><img src="images/kittens-3535404_640.jpg"></a></p>
 
-<nav rule="navigation" aria-label="main-menu">
-  <ul>
-    <li><a href="/">Home</a></li>
-    <li><a href="/people">Peole</a></li>
-    <li><a href="/prices">Prices</a></li>
-    <li><a href="/contact">Contact</a></li>
-  </ul>
-</nav>
+  <!--
+  URL PATH: images/cat.jpg relative to root level
+  relative from link written ../images/kittens.jpg relative to the file ../ means go up a folder relative to file and look from there
+  -->
 
-<img src="images/kittens.jpg" alt="kittens" width="320" height="300">
-image Formats : GIF 
- * Does well compressşng larfe areas ıf a sşngle color
- * Can do transparency, with jagged edges
- SVC :  logos icon etc. 
-  *Vector File 
-  it contains of a drawing
-  it can make scaleing easy
-jpg
- * Good for comperesing photes
- * size can be huge
-png
-good for transperancy
-good at compression
-file size can be very small
-<!--TODO responsive iamge-->
-<picture><img ></picture>
+  <nav rule="navigation" aria-label="main-menu">
+    <ul>
+      <li><a href="/">Home</a></li>
+      <li><a href="/people">Peole</a></li>
+      <li><a href="/prices">Prices</a></li>
+      <li><a href="/contact">Contact</a></li>
+    </ul>
+  </nav>
 
-<audio src="" loop autoplay></audio>
+  <!--images-->
+  <img src="images/kittens-3535404_640.jpg" alt="kittens" width="320" height="300">
+  <!--if alt is empty it wont read anything,
+    if alt is not included it migth read image flie name-->
+  <p>
+    image Formats : GIF
+   * Does well compressşng large areas of a single color
+   * Can do transparency, with jagged edges
+    *Vector File
+    it contains of a drawing
+    it can make scaleing easy
+  jpg
+   * Good for comperesing photes
+   * size can be huge
+  png
+  good for transperancy
+  good at compression
+  file size can be very small
+  svg
+  * scakable vector graphig
+  </p>
 
-can be used more than 1 source
-<video controls>
-  <source src="" type="video/webm">
-  <source src="" type="video/mp">
-</video>
+  <!--TODO responsive iamge-->
+  <img src="images/kittens-3535404_640.jpg" alt="kittens" width="640" height="427"
+  srcset="images/kittens-3535404_1280.jpg 2x, images/kittens-3535404_1920.jpg 3x">
 
-<!--TODO alt yazı ekleme ekle-->
+  <img src="images/kittens-3535404_640.jpg" alt="kittens" width="640" height="427"
+  srcset="images/kittens-3535404_640.jpg, 640w, images/kittens-3535404_1280.jpg 1280w, images/kittens-3535404_1920.jpg 1920w"
+  sizes="(maz-with: 640) 320px, (maz-with: 1280) 640px, (maz-with: 1920) 960px, 1920px">
+
+  <p>sizes Atribute: Lists wich siz image to use at wich media query</p>
+  <picture>
+    <source srcset="images/kittens-3535404_1280.jpg">
+    <img src="images/kittens-3535404_640.jpg" alt="kittens" width="640" height="427">
+  </picture>
+
+  <figure>
+    <img src="images/kittens-3535404_640.jpg" alt="kittens" width="320" height="300">
+    <figcaption>3 Samll kittens smiling to the camera</figcaption>
+  </figure>
+  <p>figure : for anything that appears as a figure, ilustrating something or anything that demostrates something as a consept wh,ch neads a caption.</p>
+  <p>figcaptionFor demonstration of a concept wich needs a caption.</p>
+
+  <!--Meida-->
+  <p>audio: element used to place audio</p>
+  <audio controls src="audio/better-day-186374.mp3" loop>music</audio>
+  <audio controls loop>
+    <source src="audio/better-day-186374.mp3">
+  </audio>
+  <p>loop: , autoplay: ,controls: </p>
+
+
+  <p>can be used more than 1 source</p>
+  <video controls>
+    <source src="videos/pexels_videos_1858244 (360p).mp4" type="video/mp4">
+    <source src="videos/pexels_videos_1858244 (1080p).mp4" type="video/mp4">
+    <source src="videos/pexels_videos_1858244 (2160p).mp4" type="video/mp4">
+    <track src="videos/captions/sub.vtt" kind="captions" label="sub" srclang="en" default>
+    <track src="videos/captions/sub.vtt8" kind="subtitles" label="sub2" srclang="en" default>
+  </video>
+
+  <p>captions: subtitles: descriptions: metadata: chapters: </p>
+
+  <p>lang : , dir: , charset: , ASCII: , Unicode: </p>
+
+  <p>div: block level element ,
+     spam: in-line element </p>
+
+  <p>head: Contains information the browser needs to know though it wont be displayed on the page
+    body: Contains the information and content that will be displlayed on he page,
+  !doctype:, html: </p>
+  <p>meta: title: </p>
+  <p>meta name descriptions content=a: description of thiis site will show up in search engine results.</p>
+  <p>Link element: Link to a range of other assets we wabt to load.
+    The rel Atribute tells the browser whşch kind of assets it is.
+    The href atrivute provides url to the asset
+  The browser will load files in order wich they listed. Put things you wana load first at the top. Things are isnt Importand or used rigth away, they can go down.
+
+  The last coomanly used element is used in head is script tag. This tels the browser toaload a JavaScript File. generally people puts in end of the html document so javaScript loads after the everthing else has loaded
+
+  The thml hhead is the place to evrything connected and setup to make shure other assets  are loadded and provide data about the page to other sides anf platforms.
+  its the headquartors for starting out the page right.
+  </p>
+
+  <p>Maim :wraps around the main content of the page. it only used once per web page and tells the broser this is where the main content is.</p>
+
+  <p>header : Used to mark places on the page where the content is a header of footer.
+    Header is in the top of the page migth contain article title side title, side logo, menue etc.
+    Footer will sits in the bottom of the page migth contain copyritgh info, some link, social links etc..
+  </p>
+
+  <p>footer :</p>
+
+  <p>article : wraped around any instance of an article/p>
+
+  <p>section : wraps around sections of content if we have a long assey for instance can be broken up by chunks to mark each section  or we may have zones in a web site. Usealy each section has a header to start new section. </p>
+
+  <p>aside : Marks content that is off to the side or not the main atraction. Prhaps side line or ads</p>
+
+  <!--Forms:-->
+  <p>Form: , Label:, input: </p>
+  <p>Atributes: action: method: get: post, dialog? name: for: type:  required placeholder value accept, multiple</p>
+  <form action="success.html" method="get">
+    <label for="name_textbox">Name</label>
+    <input id="name_textbox" name="name" placeholder="Example Name">
+
+    <label for="email">Email</label>
+    <input id="email" name="email_address" type="email" required placeholder="example@email.com">
+
+    <label for="password">Password</label>
+    <input id="password" name="password" type="password">
+
+    <label for="search">Search</label>
+    <input id="search" name="search" type="search" placeholder="&#128269;">
+
+    <label for="phone">Phone Number</label>
+    <input id="phone" name="phone" type="tel">
+
+    <label for="textarea">Text Area</label>
+    <textarea  id="textarea" name="textarea" cols="30" rows="15"></textarea>
+
+    <label for="date">Date</label>
+	  <input id="date" name="date" type="date">
+
+    <label for="color">Color</label>
+	  <input id="color" name="color" type="color">
+
+    <label for="file">File</label>
+	  <input id="file" name="file" type="file" accept="image/*" multiple>
+
+    <label for="checkbox">Checkbox</label>
+		<input id="checkbox" name="simplecheckbox" type="checkbox" value="The checkbox is checked" checked >
+
+		<label for="selectlist">Choose one</label>
+		<select id="selectlist" name="selectlist">
+		  <option>First Option</option>
+		  <option>Second Choice</option>
+		  <option>Third Thing</option>
+		</select>
+
+    <fieldset>
+      <legend>Checkbox fields inside a fieldset</legend>
+      <input id="thischeck" name="checkboxlist" type="checkbox" value="This" checked >
+      <label for="thischeck">This</label>
+      <input id="orcheck" name="checkboxlist" type="checkbox" value="And Or">
+      <label for="orcheck">And/Or</label>
+      <input id="thatcheck" name="checkboxlist" type="checkbox" value="That">
+      <label for="thatcheck">That</label>
+		</fieldset>
+		<fieldset>
+		  <legend>Radio button list inside a fieldset</legend>
+		  <input id="thisradio" name="radiobutton" type="radio" value="This" checked>
+		  <label for="thisradio">This</label>
+		  <input id="orradio" name="radiobutton" type="radio" value="Or">
+		  <label for="orradio">Or</label>
+		  <input id="thatradio" name="radiobutton" type="radio" value="That">
+		  <label for="thatradio">That</label>
+		</fieldset>
+
+    <button type="submit">Submit</button>
+
+  </form>
+
+
+  <!--Tables-->
+  <p>table: </p>
+  <p>th : tr: td: border:  </p>
+  <table border="1">
+    <tr>
+      <th>colum 1</th>
+      <th>colum 2</th>
+      <th>colum 3</th>
+      <th>colum 4</th>
+    </tr>
+    <tr>
+      <td>Row 1 colum 1</td>
+      <td>Row 1 colum 2</td>
+      <td>Row 1 colum 3</td>
+      <td>Row 1 colum 4</td>
+    </tr>
+    <tr>
+      <td>Row 2 colum 1</td>
+      <td>Row 2 colum 2</td>
+      <td>Row 2 colum 3</td>
+      <td>Row 2 colum 4</td>
+    </tr>
+    <tr>
+      <td>Row 3 colum 1</td>
+      <td>Row 3 colum 2</td>
+      <td>Row 3 colum 3</td>
+      <td>Row 3 colum 4</td>
+    </tr>
+    <tr>
+      <td>Row 4 colum 1</td>
+      <td>Row 4 colum 2</td>
+      <td>Row 4 colum 3</td>
+      <td>Row 4 colum 4</td>
+    </tr>
+  </table>
+
+  <table border="5">
+    <thead>
+      <tr>
+        <th>Element</th>
+        <th>Name</th>
+        <th>Purpose</th>
+        <th>Atributes</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>table Element</td>
+        <td>Table</td>
+        <td>Wraps The whole table</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>tr Element</td>
+        <td>TR - table Row</td>
+        <td>Wraps around a set of elements, defining them as belonging to the  same Row</td>
+        <td>colspan, rowspan, headers</td>
+      </tr>
+      <tr>
+        <td>th Element</td>
+        <td>TH - tableheader</td>
+        <td>DEfines a header for a columm</td>
+        <td>solspan, rowsapn, scope</td>
+      </tr>
+      <tr>
+        <td>td Element</td>
+        <td>TD - table data</td>
+        <td>Marks the actual bits of data</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
 
 </body>
 </html>
